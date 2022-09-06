@@ -1,12 +1,19 @@
+@font-face {
+	font-family: 'Ubuntu';
+	src: url('Ubuntu-Light.ttf') format('truetype');
+}
 input{
-	padding: 10px;
+	padding: 14px;
+	border-color: rgb(174, 54, 211);
 	border-radius: 40px;
 }
 h1{
 	margin: 30px;
+	color: rgb(174, 54, 211);
 	display: flex;
 	position: relative;
 	text-align: center;
+	text-decoration-line: underline;
 }
 div{
 	background-color: white;
@@ -14,14 +21,19 @@ div{
 	padding: 100px;
 }
 #send{
+	background-color: rgb(15, 15, 15);
+	color: white;
+	border-color: rgb(174, 54, 211);
 	text-align: center;
+	font-size: 130%;
 	padding: 10%;
 	width: 200px;
 	border-radius: 40px;
+	font-family: 'Ubuntu', sans-serif;
 }
 #send:hover{
 	cursor: pointer;
-	background-color: rgb(55, 137, 214);
+	background-color: rgb(174, 54, 211);
 	transition: 1s;
 }
 #user{
@@ -32,42 +44,18 @@ div{
 body{
     display: flex;
     align-items: center;
-    background-color: blanchedalmond;
     justify-content: center;
     font-size: 16px;
     font-weight: 200px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-	padding: 10%;
-    background: rgb(55, 137, 214) url('https://static.tumblr.com/03fbbc566b081016810402488936fbae/pqpk3dn/MRSmlzpj3/tumblr_static_bg3.png') repeat 0 0;
-	-webkit-animation: 10s linear 0s normal none infinite animate;
-	-moz-animation: 10s linear 0s normal none infinite animate;
-	-ms-animation: 10s linear 0s normal none infinite animate;
-	-o-animation: 10s linear 0s normal none infinite animate;
-	animation: 10s linear 0s normal none infinite animate;
- 
+    font-family: 'Ubuntu', sans-serif;
+	padding: 5%;
+    background-image:url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b3be1dae-3caa-4d45-be6c-3de586ba95e2/de78rki-0408aed8-1710-4806-9c39-d022dc895ddd.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2IzYmUxZGFlLTNjYWEtNGQ0NS1iZTZjLTNkZTU4NmJhOTVlMlwvZGU3OHJraS0wNDA4YWVkOC0xNzEwLTQ4MDYtOWMzOS1kMDIyZGM4OTVkZGQuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.k4PP7IfDpZMFgyEM7KZ7Fmfw84DbQgHEOV4yzdZchmw);
 }
- 
-@-webkit-keyframes animate {
-	from {background-position:0 0;}
-	to {background-position: 500px 0;}
-}
- 
-@-moz-keyframes animate {
-	from {background-position:0 0;}
-	to {background-position: 500px 0;}
-}
- 
-@-ms-keyframes animate {
-	from {background-position:0 0;}
-	to {background-position: 500px 0;}
-}
- 
-@-o-keyframes animate {
-	from {background-position:0 0;}
-	to {background-position: 500px 0;}
-}
- 
-@keyframes animate {
-	from {background-position:0 0;}
-	to {background-position: 500px 0;}
+footer{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	color: rgb(20, 19, 19);
+	padding-top: 30%;
+	font-family: 'Ubuntu', sans-serif;
 }
