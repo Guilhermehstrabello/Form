@@ -1,8 +1,29 @@
 input{
-    padding: 8px;
-    border-radius: 40px;
+	padding: 10px;
+	border-radius: 40px;
 }
+h1{
+	display: flex;
+	position: relative;
+	text-align: center;
+}
+div{
+	background-color: white;
+	border-radius: 20px;
+	padding: 100px;
 
+}
+#send{
+	text-align: center;
+	padding: 10%;
+	width: 200px;
+	border-radius: 40px;
+}
+#user{
+	display: flex;
+	align-items: center;
+	max-width: 30px;
+}
 body{
     display: flex;
     align-items: center;
@@ -11,7 +32,7 @@ body{
     font-size: 16px;
     font-weight: 200px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-	padding:10%;
+	padding: 10%;
     background: #a437d6 url('https://static.tumblr.com/03fbbc566b081016810402488936fbae/pqpk3dn/MRSmlzpj3/tumblr_static_bg3.png') repeat 0 0;
 	-webkit-animation: 10s linear 0s normal none infinite animate;
 	-moz-animation: 10s linear 0s normal none infinite animate;
