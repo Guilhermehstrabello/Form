@@ -3,12 +3,13 @@
 	src: url('Ubuntu-Light.ttf') format('truetype');
 }
 input{
-	padding: 14px;
+	padding: 20px;
+	width: 200px;
 	border-color: rgb(174, 54, 211);
 	border-radius: 40px;
 }
 h1{
-	margin: 30px;
+	margin: 50px;
 	color: rgb(174, 54, 211);
 	display: flex;
 	position: relative;
@@ -26,8 +27,8 @@ div{
 	border-color: rgb(174, 54, 211);
 	text-align: center;
 	font-size: 130%;
-	padding: 10%;
-	width: 200px;
+	padding: 20px;
+	width: 250px;
 	border-radius: 40px;
 	font-family: 'Ubuntu', sans-serif;
 }
