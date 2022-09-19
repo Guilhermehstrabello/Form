@@ -12,7 +12,7 @@
 
 # Deploy
 
-Deploy link:https://formulary.vercel.app/
+Deploy link: https://formulary.vercel.app/
 
 ---
 # Tecnologies
