@@ -1,4 +1,4 @@
-<img src="Project.png">
+<img align="center" src="Project.png">
 
 # ⌨️ Form
 ---
