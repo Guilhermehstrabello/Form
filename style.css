@@ -11,7 +11,6 @@ input{
 h1{
 	margin: 50px;
 	color: rgb(174, 54, 211);
-	display: flex;
 	position: relative;
 	text-align: center;
 	text-decoration-line: underline;
@@ -19,7 +18,7 @@ h1{
 div{
 	background-color: white;
 	border-radius: 20px;
-	padding: 100px;
+	padding: 80px;
 }
 #send{
 	background-color: rgb(15, 15, 15);
@@ -38,18 +37,19 @@ div{
 	transition: 1s;
 }
 #user{
-	display: flex;
+	display: wrap;
 	align-items: center;
 	max-width: 30px;
 }
 body{
     display: flex;
-    align-items: center;
+    margin: auto;
     justify-content: center;
     font-size: 16px;
     font-weight: 200px;
     font-family: 'Ubuntu', sans-serif;
 	padding: 5%;
+	height: 700px;
     background-image:url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b3be1dae-3caa-4d45-be6c-3de586ba95e2/de78rki-0408aed8-1710-4806-9c39-d022dc895ddd.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2IzYmUxZGFlLTNjYWEtNGQ0NS1iZTZjLTNkZTU4NmJhOTVlMlwvZGU3OHJraS0wNDA4YWVkOC0xNzEwLTQ4MDYtOWMzOS1kMDIyZGM4OTVkZGQuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.k4PP7IfDpZMFgyEM7KZ7Fmfw84DbQgHEOV4yzdZchmw);
 }
 footer{
